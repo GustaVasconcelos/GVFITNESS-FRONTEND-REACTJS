@@ -130,7 +130,7 @@ a{
         margin: 0;
         z-index: 1;
         width: 50%;
-        height: 20vh;
+        height: 30vh;
         background-color: #48D1CC;
         border-radius: 4px;
         align-items: center;
@@ -144,11 +144,6 @@ a{
 
 }
 
-@media screen and (max-width:586px){
-    .nav_menu{
-        height:25vh;
-    }
-}
 
 .nav_active{
     transform: translateX(0);

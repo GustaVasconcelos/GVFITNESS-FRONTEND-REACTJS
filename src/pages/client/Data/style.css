@@ -217,11 +217,25 @@
     }
 
 }
-/*
+
 @media screen and (max-width:586px){
 
+    .Data_body_details_data_imc{
+        flex-direction: column;
+        padding: 0;
+        height: 100%;
+    }
+
+    .Data_body_details_data_imc_infos{
+        width: 100%;
+        height: 50%;
+    }
+
+    .Data_body_details_data_imc_img{
+        width: 100%;
+        height: 50%;
+    }
 
 
 
-
-} */
+} 
