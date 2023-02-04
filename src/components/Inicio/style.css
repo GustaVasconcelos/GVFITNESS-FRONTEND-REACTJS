@@ -28,22 +28,6 @@
     height: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
-.form_inputs{
-    width: 100%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.form_msg{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .form a{
     color: #2F4F4F;
     text-align: center;
