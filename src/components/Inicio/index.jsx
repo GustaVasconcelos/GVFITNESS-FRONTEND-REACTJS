@@ -67,11 +67,15 @@ const Inicio = () => {
             </div>
             <div className="Form_login">
                 <div className='form'>
-                    <Input tipo="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Digite seu usuário" nome="Usuário"></Input>
-                    <Input tipo="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Digite sua senha" nome="Senha"></Input>
-                    <Input tipo="submit" onClick={handleSubmit} nome="login"></Input>
-                    {message&&<Message type='error' msg={message}></Message>}
-                    <Link to="/Contatos">Não possui uma conta? Entre em contato com o dono para fazer seu cadastro!!</Link>
+                    <div className='form_inputs'>
+                        <Input tipo="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Digite seu usuário" nome="Usuário"></Input>
+                        <Input tipo="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Digite sua senha" nome="Senha"></Input>
+                        <Input tipo="submit" onClick={handleSubmit} nome="login"></Input>
+                        <Link to="/Contatos">Não possui uma conta? Entre em contato com o dono para fazer seu cadastro!!</Link>
+                    </div>
+                    <div className='form_msg'>
+                        {message&&<Message type='error' msg={message}></Message>}
+                    </div>
                 </div>
             </div>
         </div>
