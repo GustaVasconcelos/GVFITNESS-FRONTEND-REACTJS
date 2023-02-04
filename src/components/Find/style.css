@@ -1,0 +1,674 @@
+.find p{
+    font-weight: bold;
+}
+.find{
+    width:90%;
+    height: 100%;
+}
+.find_info{
+    margin: 0 auto;
+    width: 100%;
+    padding-top:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Infos-find{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    text-align: center;
+}
+
+.functions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.Edit{
+    padding: 10px 10px;
+    background-color: #00FF7F;
+    color: #fff;
+    margin-inline: 5px;
+    border-radius: 6px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.box_editing{
+    display:none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+    width: 90%;
+    height: 90%;
+    background-color: #efefef;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+}
+
+.box_editing_show{
+    display: block;
+}
+
+.box_functions{
+
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.functions_itens{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.functions_close{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #DC143C;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: #fff;
+    cursor: pointer;
+}
+.payment{
+    padding: 10px 10px;
+    background-color: #00FF7F;
+    color: #fff;
+    margin-inline: 5px;
+    border-radius: 6px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.Delete{
+    padding: 10px 10px;
+    background-color: #DC143C;
+    color: #fff;
+    margin-inline: 5px;
+    border-radius: 6px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.box_editing_forms{
+    width: 95%;
+    height: 75%;
+    overflow-y: auto;
+    padding-bottom: 40px;
+}
+
+
+
+.box_editing_forms::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.box_editing_forms::-webkit-scrollbar-thumb {
+    background-color: #00FF7F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.box_form_trainingsheets{
+    margin: 10px auto;
+    width: 95%;
+    display: flex;
+    height: 90%;
+    border-bottom: 1px solid #00FF7F;
+}
+.trainingsheets_inputs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trainingsheets_inputs_message{
+    width: 100%;
+}
+.trainingsheets_inputs select,button{
+    margin: 20px 0px;
+}
+
+.trainingsheets_inputs button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #2F4F4F;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: #fff;
+}
+
+.trainingSheets{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.trainingSheets::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.trainingSheets::-webkit-scrollbar-thumb {
+    background-color: #00FF7F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+
+.TrainingSheets_box{
+    width: 95%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius:10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    min-height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Column_title_trainingsheet{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.Column_title_trainingsheet h3{
+    width: 30%;
+}
+.Column_body_trainingsheet{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 150px;
+}
+
+.Column_body_trainingsheet p{
+    width: 30%;
+}
+
+.Column_body_trainingsheet button{
+    margin-right: 2%;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #DC143C;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.box_form_details{
+    width: 95%;
+    height:70%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box_form_details_body{
+    width: 95%;
+    padding-top: 30px;
+    margin-inline: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.box_form_details_column{
+    width: 30%;
+}
+
+.box_form_details_column select{
+    margin: 20px 0px;
+}
+
+.box_form_details_submit{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Treino_body{
+    width: 60%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Exercicios_body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 340px;
+    margin: 10px 0;
+    overflow-y: auto;
+    display: block;
+}
+.Exercicios_body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.Exercicios_body::-webkit-scrollbar-thumb {
+    background-color: #00FF7F;;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.Exercicios h4{
+    padding: 3px;
+    margin: 3px;
+}
+
+.Training{
+    width: 95%;
+    overflow: hidden;
+    border-radius:10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Training_title{
+    box-sizing: border-box;
+    
+    display: flex;
+    padding-left: 40px;
+    width: 100%;
+    background-color: #00FF7F;
+}
+
+.Training_title h4{
+    font-weight: bold;
+    color: #2F4F4F;
+}
+
+.Training_body{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Training_exercises{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Column_title{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.Column_title h3{
+    width: 33%;
+}
+.box_body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 190px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+.box_body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.box_body::-webkit-scrollbar-thumb {
+    background-color: #00FF7F;;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.Column_body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 150px;
+}
+
+.Column_body p{
+    width: 33%;
+}
+
+.Details{
+    width: 40%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Details_body{
+    padding-top: 10px;
+    width: 100%;
+    max-height: 340px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Details_body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.Details_body::-webkit-scrollbar-thumb {
+    background-color: #00FF7F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.Details_infos{
+    width: 100%;
+    min-height: 200px;
+}
+
+.Details_infos h4{
+    padding: 3px;
+    margin: 3px;
+}
+
+@media screen and (max-width:1024px){
+    .box_editing{
+        top:1%;
+        left: 5%;
+        height: 50%;
+    }
+
+    .box_editing_show{
+        display: block;
+    }
+    .box_functions{
+        height: 10%;
+    }
+    
+    
+    .box_editing_forms{
+        width: 95%;
+        height: 75%;
+        overflow-y: auto;
+        padding-bottom: 40px;
+    }
+    
+    .box_form_trainingsheets{
+        margin: 10px auto;
+        width: 95%;
+        display: flex;
+        height: 90%;
+        border-bottom: 1px solid #00FF7F;
+    }
+    .trainingsheets_inputs{
+        width: 50%;
+        height: 70%;
+
+    }    
+    .trainingSheets{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 95%;
+        overflow-y: auto;
+        margin: 0 auto;
+    }
+    
+    .box_form_details_column{
+        width: 25%;
+        margin-inline: 3%;
+    }
+    
+    
+}
+
+@media screen and (max-width:912px){
+    .box_editing{
+        left: 2.3%;
+    }
+}
+@media screen and (max-width:820px){
+
+    .find_info{
+        flex-direction: column;
+        
+    }
+
+    .box_editing{
+        left: 5%;
+    }
+
+    .box_form_trainingsheets{
+        width: 95%;
+        height: 70%;
+    }
+    .trainingSheets{
+        width: 60%;
+    }
+
+    .Training_body{
+        width: 95%;
+        margin-inline: 3%;
+    }
+
+    .box_form_details_body{
+        padding-top: 0;
+    }
+    .box_form_details {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box_form_details_body{
+        width: 40%;
+        display: block;
+        margin: 0px auto;
+        overflow-y: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box_form_details_body::-webkit-scrollbar {
+        width: 10px;               /* width of the entire scrollbar */
+        
+        
+    }
+    
+    .box_form_details_body::-webkit-scrollbar-thumb {
+        background-color: #00FF7F;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+    }
+
+    .box_form_details_column{
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .functions{
+        width: 50%;
+    }
+    .Edit{
+        padding: 5px;
+    }
+    .Delete{
+        padding: 5px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .Exercicios_body{
+        max-height: 350px;
+        
+    }
+    .Training_exercises{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow-y: auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+    }
+    
+    .Treino_body{
+        width: 100%;
+    }
+
+    .Details{
+        width: 100%;
+    }
+
+    .Details_body{
+        max-height: 243px;
+        display: flex;
+    }
+
+    .Details_infos{
+        text-align: center;
+        width: 100%;
+        height: 95%;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:586px){
+
+    .box_functions{
+        height: 15%;
+    }
+
+    .functions_itens{
+        margin: 15px 0;
+        width: 40%;
+        flex-direction: column;
+        margin-inline: 10px;
+    }
+    .functions_itens h3{
+        font-size: 14px;
+    }
+
+    .payment{
+        padding: 5px 10px;
+
+    }
+
+    .box_form_trainingsheets{
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .trainingsheets_inputs{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .trainingsheets_inputs input{
+        margin: 10px 0px;
+    }
+
+    .trainingsheets_inputs span{
+        top: 23px;
+    }
+
+    .trainingSheets{
+        width: 100%;
+    }
+
+    .box_form_details {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        margin: 0px auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box_form_details_body{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        overflow-y: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box_form_details_body::-webkit-scrollbar {
+        width: 10px;               /* width of the entire scrollbar */
+        
+        
+    }
+    
+    .box_form_details_body::-webkit-scrollbar-thumb {
+        background-color: #00FF7F;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+    }
+
+    
+    .box_form_details_column{
+        margin: 0 auto;
+        width: 50%;
+    }
+    
+    .box_form_details_submit input{
+        font-size: 13px;
+        text-align: center;
+    }
+}

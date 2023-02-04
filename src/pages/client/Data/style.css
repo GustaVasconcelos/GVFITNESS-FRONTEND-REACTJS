@@ -1,0 +1,227 @@
+.Data_body{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+}
+.Data_body span{
+    font-size: 16px;
+}
+.Data_body_flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Data_body_details_data{
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Data_body_details_data_box{
+    padding-top: 40px;
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.Data_body_details_data_box_itens{
+    padding: 12px;
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Data_body_details_data_box_itens_width{
+    width: 50%;
+    display: flex;
+    align-items: center;   
+}
+
+.Data_body_details_data_box_itens_svg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.Data_body_details_data_box_itens_svg svg{
+    margin-inline: 10px;
+    font-size: 20px;
+    background-color: #00FF7F;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Data_body_details_data_imc{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Data_body_details_data_imc_infos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Data_details_imc_detailsbox_boxitens{
+    width: 100%;
+    height: 30%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Data_details_imc_detailsbox_itens{
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Data_details_imc_detailsbox_itens p{
+    width: 30%;
+    height: 35%;
+    font-weight: bold;
+    color: #2F4F4F;
+}
+
+.Data_body_details_data_imc_img{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    filter: drop-shadow(15px 10px 8px rgba(50, 50, 93, 0.25));
+}
+
+.Data_body_details_data_members{
+    width: 50%;
+    height: 100%;
+}
+
+.Data_details_members_body{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Data_details_members_box{
+    width: 100%;
+    height: 30%;
+}
+
+.Data_details_members_box_title{
+    width: 100%;
+    text-align: center;
+}
+.Data_details_members_box_body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Data_details_members_box_body_itens{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.Data_details_members_box_body_itens img{
+    width: 70%;
+    height: 50%;
+}
+
+@media screen and (max-width:1280px){
+
+    .Data_body_details_data_box {
+        padding-top: 10px;
+
+    }
+
+    .Data_details_members_box_body_itens h3, .Data_details_members_box_title h3{
+        font-size: 17px;
+    }
+
+
+}
+ 
+@media screen and (max-width:1024px){
+
+    .Data_body_details_data {
+        padding-top: 15px;
+    }
+    .Data_body_details_data_box {
+        padding-top: 0px;
+    }
+
+    .Data_body_details_data_box_itens_width h3, .Data_body_details_data_imc_infos h3,.Data_details_members_box_body_itens h3, .Data_details_members_box_title h3{
+        font-size: 15px;
+    }
+    
+    .Data_body_details_data_box_itens_svg svg{
+        padding: 10px;
+    }
+
+    .Data_details_members_box_body_itens span, .Data_body_details_data_box_itens_width span{
+        font-size: 14px;
+    }
+    .Data_details_members_box_body_itens h3{
+        margin: 7px;
+    }
+
+
+}
+
+@media screen and (max-width:820px){
+    .Data_body_flex{
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    .Data_body_details_data{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .Data_body_details_data_imc{
+        padding-top: 20px;
+    }
+
+    .Data_body_details_data_members{
+        width: 100%;
+    }
+
+    .Data_details_members_box{
+        padding: 10px 0;
+    }
+
+}
+/*
+@media screen and (max-width:586px){
+
+
+
+
+
+} */

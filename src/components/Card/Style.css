@@ -1,0 +1,40 @@
+.Card{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Card_infos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Card_infos h5{
+    background-color: #DC143C;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.Card_name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card_monthly{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:576px){
+    .Card_infos h5{
+        padding: 10px 13px;
+
+    }
+}

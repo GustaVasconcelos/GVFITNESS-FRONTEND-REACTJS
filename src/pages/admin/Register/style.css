@@ -1,0 +1,119 @@
+.Register_body{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register_form{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container_form{
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Form_title{
+    width: 100%;
+    height: 15%;
+    background-color: #00FF7F;
+}
+
+.Form_body{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input_select{
+    max-width: 236px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    border-color: #2F4F4F;
+    border-radius: 4px;
+    color: #2F4F4F;
+    margin-left: 5px;
+}
+.button_register{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #00FF7F;
+    font-weight: bold;
+    color: #2F4F4F;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.Register_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register_img img{
+    max-width: 90%;
+    max-height: 90%;
+}
+@media screen and (max-width:1024px){
+
+    .Register_body{
+        margin-top: 50px;
+        height: 100%;
+        flex-direction: column;
+    }
+    .Register_form{
+        width: 100%;
+        height: 80%;
+    }
+    .Container_form{
+        width: 90%;
+        height: 60%;
+    }
+    .Register_img{
+        width: 100%;
+        height: 40%;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .Register_body{
+        margin-top: 100px;
+        max-height: 80%;
+    }
+
+    .Register_form{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Container_form{
+        width: 90%;
+        height: 100%;
+    }
+
+    .Form_title{
+        width: 100%;
+        background-color: #00FF7F;
+    }
+
+
+    
+}

@@ -1,0 +1,92 @@
+
+.Inicio_body{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.Form_login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 40px 60px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form a{
+    color: #2F4F4F;
+    text-align: center;
+}
+.Infos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Infos h2,h3{
+    color: #2F4F4F;
+}
+.Infos span{
+    color:#00FF7F ;
+}
+
+.Infos img{
+    max-width: 100%;
+    height: 40%;
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .Inicio_body{
+        margin-top: 30px;
+        display: block;
+    }
+    .Form_login{
+        margin-top: 70px;
+        width: 100%;
+        height: 50%;
+
+    }
+    .Form_login .form{
+        height: 90%;
+    }
+
+    .Form_login .form a{
+        font-size: 13px;
+
+    }
+    .Infos{
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .Infos img{
+        height: 50%;
+    }
+
+    .Infos h2{
+        font-size: 1.6rem;
+    }
+
+}
